@@ -1,0 +1,1252 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/Gotham/GothaProBla.otf');
+    src: url('/Gotham/GothaProBol.otf');
+    src: url('/Gotham/GothaProLig.otf');
+    src: url('/Gotham/GothaProMed.otf');
+    src: url('/Gotham/GothaProNarBol.otf');
+    src: url('/Gotham/GothaProNarMed.otf');
+    src: url('/Gotham/GothaProReg.otf');
+}
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f2ebe6;
+    background-size: cover;
+}
+
+.header-top {
+    padding-top: 84px;
+    padding-bottom: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo {
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #303437;
+    text-decoration: none;
+}
+
+b {
+    font-weight: 500;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-menu-element {
+    margin-right: 25px;
+    list-style: none;
+}
+
+.header-top-menu__link {
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+    
+}
+
+.header-search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-right: 53px;
+}
+
+.bag {
+    margin-right: 18px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart {
+    font-family: Gotham;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-women-section, .header-men-section {
+    text-align: center;
+}
+
+
+.header-first-title, .header-second-title {
+    font-family: 'Gotham';
+    font-size: 150px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+
+.header-first-title b, .header-second-title b {
+    font-weight: 700;
+}
+
+.header-glasses {
+    margin-bottom: 84px;
+    margin-top: -10px;
+}
+
+
+.header-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a77c5a;
+    padding-bottom: 244px;
+}
+
+
+
+.dioptric, .header-line {
+    margin-right: 18px;
+}
+
+.main .container {
+    position: relative;
+}
+.special {
+    position: absolute;
+    left: -190px;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+}
+
+.special-line {
+    transform: rotate(90deg);
+    margin-right: 28px;
+}
+
+.special-span {
+    font-family: 'Gotham';
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.special-span b {
+    font-weight: 700;
+}
+
+.main-photos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: -110px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.left-photo {
+    background: url('img/Layer6.png') no-repeat;
+    background-size: cover;
+    width: 745px;
+    height: 608px;  
+
+    /* background: linear-gradient(0.0deg, #000000 0%, rgba(0,0,0,0.0) 100%);
+    opacity: 0.3; */
+}
+
+.right-photo {
+    width: 504px;
+    height: 892px;
+    background: url('img/right_photo.png') no-repeat;
+    background-size: cover;
+}
+
+.right-photo .sub {
+    margin: 638px 140px 150px 94px;
+}
+
+.sub {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 406px;
+    margin-top: 355px;
+
+}
+
+.subsription {
+    font-family: 'Gotham';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-more {
+    background-color: transparent;
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    border: 1px white solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 51px;
+}
+
+.button-more img {
+    margin-left: 42px;
+}
+
+.main-worth {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px #a77c5a solid;
+    position: relative;
+    height: 250px;
+}
+
+.worth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 372px;
+}
+
+
+
+.worth img {
+    margin-bottom: 15px;
+}
+
+.main-worth:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 181px;
+    opacity: 0.5;
+    background-color: #a77c5a;
+}
+
+.val {
+    font-family: 'Gotham';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a77c5a;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.worldwide {
+    font-family: 'MyriadPro','Gotham';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #b2b2b2;
+    text-align: center;
+}
+
+.products {
+    margin: 0 auto;
+}
+
+.second-section, .third-section {
+    position: relative;
+}
+
+.special-bestsellers, {
+    top: 90px;
+}
+
+.bestsellers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    top: -110px;
+    width: 100%;
+}
+
+
+.name-glasses, .firm {
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a77c5a;
+    display: block;
+}
+
+.price {
+    font-family: 'Gotham';
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.products .button-more {
+    display: block;
+    margin: 0 auto;
+    margin-top: 164px;
+    margin-bottom: 160px;
+    border: 1.0px solid rgb(0, 0, 0, 0.3);
+    color: black;
+}
+
+.third-section {
+    position: relative;
+}
+
+.special-new {
+    top: 50px;
+}
+
+.brands-section {
+    background-color: #e5e5e5;
+}
+
+.brands-section .container {
+    position: relative;
+}
+
+.special-brands {
+    left: -140px;
+    top: -20px;
+}
+
+.brand-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.card {
+    width: 270px;
+    height: 270px;
+    opacity: 0.3;
+    background-color: #e5e5e5;
+    border: 1.0px solid #212121;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.num-of-products {
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a77c5a;
+}
+
+.add-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+
+.add-info-card1, .add-info-card2 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.add-info-card1 {
+    background: url('img/info1.png') no-repeat;
+}
+
+.add-info-card2 {
+    background: url('img/info2.png') no-repeat;
+}
+
+.info-text {
+    font-family: 'Gotham';
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.info {
+    width: 306px;
+    margin: auto;
+    margin-top: 160px;
+
+}
+
+.info__button {
+    margin-top: 32px;
+    width: 306px;
+}
+
+
+.special-newsletter {
+    left: -160px;
+    top: 50px;
+}
+
+.mail-info {
+    font-family: 'Gotham';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #a77c5a;
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.input {
+    width: 648px;
+    height: 100px;
+    border: 1.0px solid #a77c5a;
+    margin: 0 auto;
+}
+
+.mail-section {
+    margin-bottom: 123px;
+}
+
+.mail__input {
+    border: none;
+    /* padding: 20px 0px 20px 50px; */
+    padding-left: 50px;
+    width: 498px;
+
+}
+
+.mail__input::placeholder {
+    font-family: 'Gotham';
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100px;
+    height: 100px;
+    background-color: #a77c5a;
+    opacity: 0.14;
+
+}
+
+.container-img-mail {
+    /* width: 100px;
+    height: 100px;
+    opacity: 0.14; */
+    /* width: 36px;
+    height: 36px;
+    background: url('img/mail.png'); */
+    z-index: 99;
+    position: relative;
+    
+    /* background-color: #a77c5a; */
+    /* background-size: cover; */
+    /* position: absolute; */
+    
+}
+
+.container-img-mail img {
+    display: block;
+    position: absolute;
+
+}
+
+
+.footer {
+    background-color: #f2ebe6;
+    padding-top: 85px;
+    padding-bottom: 86px;
+}
+
+.footer-el {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 51px;
+}
+
+.brands-container {
+    display: flex;
+}
+
+.first-list {
+    margin-right: 133px;
+}
+
+ul {
+    padding: 0;
+}
+.name {
+    list-style: none;
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #b2b2b2;
+}
+
+.name a {
+    text-decoration: none;
+    font-family: 'Gotham';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #b2b2b2;
+}
+
+.element {
+    font-family: 'Gotham';
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a77c5a;
+    display: block;
+    margin-bottom: 48px;
+}
+
+.element b {
+    font-weight: 700;
+}
+
+.footer-line {
+    width: 90%;
+    height: 1px;
+    opacity: 0.5;
+    background-color: #a77c5a;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-down {
+    padding-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #b8b3b0;
+    text-decoration: none;
+}
+
+.footer-logo b {
+    font-weight: 500;
+}
+
+.sponsors {
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.trustpilot {
+    display: block;
+    margin-right: 24px;
+}
+
+@media (max-width: 1599px) {
+    .special-span, .special {
+        display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .container {
+        width: 1190px;
+    }
+
+    .header-first-title, .header-second-title {
+        font-size: 120px;
+    }
+    
+
+    .header-glasses {
+
+        width: 522px;
+        height: 150px;
+    }
+
+    .left-photo {
+        width: 645px;
+        height: 508px;
+    }
+
+    .left-container {
+        width: 645px;
+    }
+
+    .right-photo {
+        width: 404px;
+        height: 742px;
+    }
+
+    .sub {
+        margin-left: 306px;
+        margin-top: 255px;
+    }
+
+    .right-photo .sub {
+        margin-top: 500px;
+        margin-left: 45px;
+    }
+
+    .main-worth {
+        height: 200px;
+    }
+
+    .glasses {
+        width: 80%;
+        height: 80%;
+    }
+
+    .add-info-card1, .add-info-card2 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .info {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .container {
+        width: 991px;
+    }
+
+    .footer-down {
+        display: flex;
+    }
+
+    .footer-line {
+        width: 900px;
+    }
+
+    .header-top {
+        padding-bottom: 150px;
+    }
+
+    .header-section {
+        display: block;
+        
+    }
+
+    .header-description {
+        padding-bottom: 150px;
+    }
+
+    .header-glasses {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .header-men-section .header-glasses {
+        display: block;
+        margin-top: 17px;
+    }
+
+
+    .header-men-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-photos-container {
+        top: 0;
+        display: block;
+ 
+    }
+
+    .left-container, .right-photo {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .left-photo {
+        width: 745px;
+        height: 608px;
+    }
+
+    .left-container {
+        width: 745px;
+
+    }
+
+    .right-photo {
+        width: 745px;
+        height: 892px;
+    }
+
+    .main-worth {
+        margin-top: 40px;
+    }
+
+    .sub {
+        margin-left: 406px;
+        margin-top: 355px;
+    }
+
+    .right-photo .sub {
+        margin-left: 210px;
+        margin-top: 638px;
+    }
+
+    .card {
+        width: 210px;
+        height: 210px;
+    }
+
+    .add-info-card1, .add-info-card2 {
+        width: 280px;
+        height: 280px;
+    }
+
+    .info-text {
+        font-size: 24px;
+    }
+
+    .info__button {
+        font-size: 14px;
+        width: 200px;
+        padding: 15px 10px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-top {
+        padding-top: 50px;
+    }
+    
+    .header-description {
+        padding-bottom: 250px;
+    }
+
+    .header-women-section .header-description {
+        padding-bottom: 100px;
+    }
+
+    .left-container {
+        margin-top: -100px;
+    }
+
+    .left-photo {
+        width: 715px;
+        height: 662px;
+    }
+
+    .left-container {
+        width: 720px;
+    }
+
+    .val, .worldwide {
+        font-size: 18px;
+    }
+
+    .right-photo {
+        width: 720px;
+        height: 867px;
+    }
+
+    .sub {
+        margin-left: 370px;
+        margin-top: 390px;
+    }
+    .right-photo .sub {
+        margin-top: 600px;
+    }
+
+    .section-glasses {
+        margin-bottom: 40px;
+    }
+
+    .price {
+        font-size: 22px;
+    }
+
+
+    .section-glasses1 {
+        grid-area: one;
+    }
+
+    .section-glasses2 {
+        grid-area: two;
+    }
+
+    .section-glasses3 {
+        grid-area: three;
+    }
+
+    .section-glasses4 {
+        grid-area: four;
+    }
+
+    .bestsellers, .new-products {
+        display: grid;
+        grid-template-areas: "one two"
+                            "three four";
+    }
+    
+    .bc1 {
+        grid-area: bc1;
+    }
+    .bc2 {
+        grid-area: bc2;
+    }
+    .bc3 {
+        grid-area: bc3;
+    }
+    .bc4 {
+        grid-area: bc4;
+    }
+
+    .brand-cards {
+        display: grid;
+        grid-template-areas: "bc1 bc2" "bc3 bc4";
+    }
+
+    .products .button-more {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .brand-card {
+        margin-bottom: 50px;
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .add-info-card1 {
+        grid-area: aic1;
+        margin-bottom: 50px;
+    }
+    .add-info-card2 {
+        grid-area: aic2;
+        margin-bottom: 50px;
+    }
+    .add-info-card3 {
+        grid-area: aic3;
+        margin: 0 auto;
+    }
+    .add-info {
+        display: grid;
+        grid-template-areas: "aic1 aic2" "aic3 aic3";
+        
+    }
+
+    .second-list {
+        display: none;
+    }
+
+    .footer-line {
+        width: 710px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 576px;
+    }
+
+    .info {
+        width: 250px;
+    }
+
+    .header-first-title, .header-second-title {
+        font-size: 100px;
+    }
+
+    .header-glasses {
+        width: 422px;
+        height: 120px;
+    }
+
+    .left-photo {
+        width: 576px;
+        height: 602px;
+    }
+
+    .left-container {
+        width: 576px;
+    }
+
+
+    .right-photo {
+        width: 576px;
+        height: 807px;
+    }
+
+    .sub {
+        margin-left: 230px;
+        margin-top: 320px;
+    }
+    .right-photo .sub {
+        margin-top: 500px;
+        margin-left: 130px;
+    }
+
+    .add-info-card1, .add-info-card2 {
+        margin-bottom: 20px;
+    }
+
+    .mail-info {
+        width: 575px;
+    }
+
+    .input {
+        width: 576px;
+        height: 80px;
+    }
+
+    .footer-line {
+        width: 576px;
+    }
+
+    .content {
+        height: 80px;
+        width: 80px;
+    }
+
+    .mail__input::placeholder {
+        font-size: 20px;
+    }
+
+    .sponsors {
+        display: block;
+    }
+
+    .trustpilot {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 450px;
+        
+    }
+
+    .left-photo {
+        width: 450px;
+        height: 500px;
+    }
+
+    .left-container {
+        width: 450px;
+    }
+
+    .main-worth:before {
+        height: 100px;
+    }
+
+    .main-worth {
+        height: 130px;
+    }
+
+    .val, .worldwide {
+        font-size: 14px;
+    }
+
+    .sub {
+        margin-left: 120px;
+        margin-top: 240px;
+    }
+
+    .right-photo {
+        width: 450px;
+        height: 680px;
+        margin-top: 50px;
+    }
+
+    .right-photo .sub {
+        margin-left: 70px;
+        margin-top: 400px;
+    }
+
+    .bestsellers, .new-products {
+        grid-template-areas: "one"
+        "two" "three" "four";
+    }
+
+    .section-glasses {
+        margin-bottom: 60px;
+    }
+
+    .add-info {
+        grid-template-areas: "aic1" "aic2" "aic3";
+        
+    }
+
+    .mail-info, .input {
+        width: 450px;
+    }
+
+    .footer-line {
+        width: 410px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 300px;
+        padding: 0 20px;
+    }
+
+    .header-search-container {
+        display: none;
+    }
+
+    .header-top {
+        padding-top: 20px;
+        padding-bottom: 150px;
+    }
+
+    .header-men-section .header-description {
+        padding-bottom: 150px;
+    }
+
+    .header-first-title, .header-second-title {
+        font-size: 70px;
+    }
+
+    .header-description {
+        font-size: 14px;
+    }
+
+    .header-glasses {
+        width: 300px;
+        height: 80px;
+    }
+
+    .left-photo {
+        width: 300px;
+        height: 330px;
+    }
+
+    .left-container {
+        width: 300px;
+    }
+
+    .main-worth:before {
+        height: 100px;
+    }
+
+    .main-worth {
+        height: 130px;
+    }
+
+    .val, .worldwide {
+        font-size: 14px;
+    }
+
+    .main-photos-container {
+        margin-bottom: 50px;
+    }
+    .sub {
+        margin-left: 50px;
+        margin-top: 180px;
+        width: 200px;
+    }
+
+    .subsription {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .sub .button-more {
+        padding: 10px 10px;
+        font-size: 14px;
+
+    }
+
+    .right-photo {
+        width: 300px;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .right-photo .sub {
+        margin-left: 50px;
+        margin-top: 350px;
+    }
+
+    .glasses {
+        width: 70%;
+    }
+
+    .name-glasses, .firm {
+        font-size: 16px;
+    }
+
+    .products .button-more {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+
+
+
+    .brand-cards {
+        display: grid;
+        grid-template-areas: "bc1" "bc2" "bc3" "bc4";
+    }
+
+    .brands, .sponsors {
+        display: none;
+    }
+
+    .mail-info {
+        font-size: 16px;
+    }
+
+    .mail-info, .input {
+        width: 300px;
+    }
+
+    .mail-section {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer-line {
+        width: 300px;
+    }
+
+    .footer-down {
+        justify-content: center;
+        
+    }
+    
+    .mail__input::placeholder {
+        font-size: 14px;
+    }
+}
